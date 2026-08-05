@@ -49,6 +49,7 @@ export const Body = () => {
             onClick={() => {
               //Filter the restaurant cards and update the UI
               //searchText
+              // next time i will filter it will filter from the list of restaurants only.....
              const filteredRestro =  listofRestaurants.filter((res) => res.info?.name.toLowerCase().includes(searchText.toLowerCase()));
              console.log(filteredRestro);
              setfilteredRestaurent(filteredRestro);
